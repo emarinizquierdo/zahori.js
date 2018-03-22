@@ -1,12 +1,18 @@
 <template>
   <div>
-    <img src="./assets/logo.png">
+    <step></step>
   </div>
 </template>
 
 <script>
+
+import Step from "@/components/step";
+
 export default {
   name: 'App',
+  components:{
+    Step
+  },
   created(){
   },
   ready(){
